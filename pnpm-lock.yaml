@@ -12,8 +12,8 @@ dependencies:
     specifier: 3.0.0-4020920240930001
     version: 3.0.0-4020920240930001(@dcloudio/types@3.4.8)(postcss@8.4.47)(vue@3.4.21)
   '@dcloudio/uni-app-harmony':
-    specifier: 3.0.0-4020920240930001
-    version: 3.0.0-4020920240930001(postcss@8.4.47)(vite@5.2.8)(vue@3.4.21)
+    specifier: 3.0.0-alpha-4010320240415001
+    version: 3.0.0-alpha-4010320240415001
   '@dcloudio/uni-app-plus':
     specifier: 3.0.0-4020920240930001
     version: 3.0.0-4020920240930001(postcss@8.4.47)(vite@5.2.8)(vue@3.4.21)
@@ -1431,23 +1431,15 @@ packages:
   /@dcloudio/types@3.4.8:
     resolution: {integrity: sha512-IPXuoghLv7qNPOnRuP7vC5++MdRHhE0U7EMw9ia//uOh69fFXZiRTfoHd51+nzciD6R50gqYhbrCCZIxnxhM9Q==}
 
-  /@dcloudio/uni-app-harmony@3.0.0-4020920240930001(postcss@8.4.47)(vite@5.2.8)(vue@3.4.21):
-    resolution: {integrity: sha512-YHAJSX1DCaLTr7MDc4mOJ/0JfECn2YS9b5EvMyl5WUy8CIDSupOxFpygnpcUHTlyExdQOivp35TerYfLa0BDew==}
+  /@dcloudio/uni-app-harmony@3.0.0-alpha-4010320240415001:
+    resolution: {integrity: sha512-xu48+F/HSHqzVB2ScBSsrfUHRB5nADg2p1MNX7/gSDw5AMh97mVE4rF/MQ7PUUlGDWE9I/gJPl6tt9JXw1Tjew==}
     dependencies:
-      '@dcloudio/uni-app-vite': 3.0.0-4020920240930001(postcss@8.4.47)(vite@5.2.8)(vue@3.4.21)
       debug: 4.3.4
       fs-extra: 10.1.0
       licia: 1.39.2
       postcss-selector-parser: 6.0.15
     transitivePeerDependencies:
-      - '@nuxt/kit'
-      - '@vueuse/core'
-      - postcss
-      - rollup
       - supports-color
-      - ts-node
-      - vite
-      - vue
     dev: false
 
   /@dcloudio/uni-app-plus@3.0.0-4020920240930001(postcss@8.4.47)(vite@5.2.8)(vue@3.4.21):
