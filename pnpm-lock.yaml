@@ -18,8 +18,8 @@ dependencies:
     specifier: 3.0.0-4020920240930001
     version: 3.0.0-4020920240930001(postcss@8.4.47)(vite@5.2.8)(vue@3.4.21)
   '@dcloudio/uni-components':
-    specifier: 3.0.0-4020920240930001
-    version: 3.0.0-4020920240930001(postcss@8.4.47)(vue@3.4.21)
+    specifier: 3.0.0-alpha-3000020210521001
+    version: 3.0.0-alpha-3000020210521001
   '@dcloudio/uni-h5':
     specifier: 3.0.0-4020920240930001
     version: 3.0.0-4020920240930001(postcss@8.4.47)(vue@3.4.21)
@@ -1684,6 +1684,10 @@ packages:
       - supports-color
       - ts-node
       - vue
+    dev: false
+
+  /@dcloudio/uni-components@3.0.0-alpha-3000020210521001:
+    resolution: {integrity: sha512-FxCzOPgOqE5V9owpogIZc0UvvfSlrzL77YVoKFWXB6BRJwAzc2bEpzA0+vUA+2V+RajWN6HrK9/czKjsArTS1A==}
     dev: false
 
   /@dcloudio/uni-h5-vite@3.0.0-4020920240930001(postcss@8.4.47)(vue@3.4.21):
